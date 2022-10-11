@@ -1,5 +1,5 @@
 
-let myarr1 = [321, 63, 'Marmelada', 4, 'Kruh', 11235, 'Tanujur'];
+let array = [321, 63, 'Marmelada', 4, 'Kruh', 11235, 'Tanujur'];
 
 function compareNumbers(a, b) {
 
@@ -21,5 +21,5 @@ function compareNumbers(a, b) {
   }
   return 0;
 }
-myarr1.sort(compareNumbers);
-console.log(myarr1)
+array.sort(compareNumbers);
+console.log(array)
