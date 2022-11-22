@@ -35,3 +35,20 @@ app.get("/SaveItem", (req, res) => {
         }
     }*/
 
+pp.get("/GetBrand", (req, res) => {
+        var data;   
+        var temp = [];
+    
+   
+});
+
+/*{
+    status:"OK",
+    data:{
+    brand:"New",
+    items:[
+    {name:"Hlace", price:70.53},
+    {name:"Jakna", price:250.1}
+    ]
+    }
+    }*/
