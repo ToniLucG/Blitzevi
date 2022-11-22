@@ -11,7 +11,7 @@ app.get("/SaveItem", (req, res) => {
     var data;   
     var temp = [];
 
-    for (i in obavjesti) {
+    for (i in Item) {
         data = item[i].name + " " + item[i].price + " " + item[i].brand;
         temp.push(data);
     }
